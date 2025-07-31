@@ -5,30 +5,22 @@ It's absolutely essential for machine learning because virtually all data in ML 
 
 Here are the NumPy essentials you need to grasp:
 
-1. The ndarray (N-dimensional Array)
+## 1. The ndarray (N-dimensional Array)
 This is the core data structure in NumPy. It's a grid of values, all of the same type, and is indexed by a tuple of non-negative integers.
 
 Key characteristics:
-
-Homogeneous: All elements in a NumPy array must be of the same data type (e.g., all integers, all floats). This is a key difference from Python lists, which can hold elements of different types.
-
-Fixed Size: Once created, the total size (number of elements) of an array cannot change. You can reshape it, but the total number of elements remains constant.
-
-Efficient Operations: NumPy operations are highly optimized (often implemented in C or Fortran) making them much faster than equivalent operations on Python lists, especially for large datasets.
-
-Vectorization: This is the ability to perform operations on entire arrays at once, rather than looping through individual elements. This is crucial for performance.
+* Homogeneous: All elements in a NumPy array must be of the same data type (e.g., all integers, all floats). This is a key difference from Python lists, which can hold elements of different types.
+* Fixed Size: Once created, the total size (number of elements) of an array cannot change. You can reshape it, but the total number of elements remains constant.
+* Efficient Operations: NumPy operations are highly optimized (often implemented in C or Fortran) making them much faster than equivalent operations on Python lists, especially for large datasets.
+* Vectorization: This is the ability to perform operations on entire arrays at once, rather than looping through individual elements. This is crucial for performance.
 
 Common ndarray attributes:
+* .shape: A tuple indicating the size of the array in each dimension.
+* .ndim: The number of dimensions (axes) of the array.
+* .size: The total number of elements in the array.
+* .dtype: The data type of the elements in the array (e.g., int32, float64).
 
-.shape: A tuple indicating the size of the array in each dimension.
-
-.ndim: The number of dimensions (axes) of the array.
-
-.size: The total number of elements in the array.
-
-.dtype: The data type of the elements in the array (e.g., int32, float64).
-
-2. Array Creation
+## 2. Array Creation
 You need to know how to create arrays in various ways:
 
 ```python
@@ -71,11 +63,10 @@ randint_arr = np.random.randint(0, 10, size=(2, 3)) # Random integers [low, high
 print("Random Integers:\n", randint_arr)
 ```
 
-3. Indexing and Slicing
+## 3. Indexing and Slicing
 Accessing elements and subarrays is fundamental, similar to Python lists but extended for multiple dimensions.
 
-Python
-
+```python
 arr = np.array([[10, 20, 30],
                 [40, 50, 60],
                 [70, 80, 90]])
@@ -101,11 +92,12 @@ print("Elements > 50:", arr[bool_arr]) # Output: [60 70 80 90]
 
 # You can also combine conditions
 print("Elements > 20 and < 80:", arr[(arr > 20) & (arr < 80)])
-4. Basic Array Operations (Element-wise)
+```
+
+## 4. Basic Array Operations (Element-wise)
 NumPy allows you to perform mathematical operations directly on entire arrays, which are applied element by element.
 
-Python
-
+```python
 arr1 = np.array([1, 2, 3])
 arr2 = np.array([4, 5, 6])
 
@@ -122,11 +114,12 @@ print("Scalar Addition:", arr1 + 10)     # [11 12 13]
 # Trigonometric functions, exponentials, logarithms
 print("Sin of arr1:", np.sin(arr1))
 print("e^arr1:", np.exp(arr1))
-5. Aggregation Functions
+```
+
+## 5. Aggregation Functions
 NumPy provides functions to summarize data in arrays (sum, mean, max, min, standard deviation, etc.).
 
-Python
-
+```python
 arr = np.array([[1, 2, 3],
                 [4, 5, 6]])
 
@@ -140,11 +133,12 @@ print("Mean along rows (axis=1):", np.mean(arr, axis=1)) # Output: [2.  5.] ((1+
 print("Max element:", np.max(arr))
 print("Min element of each column:", np.min(arr, axis=0))
 print("Standard deviation:", np.std(arr))
-6. Reshaping and Transposing
+```
+
+## 6. Reshaping and Transposing
 Changing the dimensions or orientation of an array without changing its data.
 
-Python
-
+```python
 arr = np.arange(1, 10) # [1 2 3 4 5 6 7 8 9]
 print("Original array:", arr)
 
@@ -159,11 +153,12 @@ print("Transposed array:\n", transposed_arr)
 # Flatten an array back to 1D
 flattened_arr = reshaped_arr.flatten()
 print("Flattened array:", flattened_arr)
-7. Broadcasting
+```
+
+## 7. Broadcasting
 This is a powerful feature that allows NumPy to perform operations on arrays of different shapes, provided they are compatible. NumPy automatically "stretches" the smaller array to match the larger one.
 
-Python
-
+```python
 arr = np.array([[1, 2, 3],
                 [4, 5, 6]]) # Shape (2, 3)
 
@@ -176,11 +171,12 @@ print("Array + Vector (Broadcasting):\n", result)
 # Example with a scalar (most common broadcasting)
 result_scalar = arr + 100
 print("Array + Scalar:\n", result_scalar)
-8. Linear Algebra Operations
+```
+
+## 8. Linear Algebra Operations
 NumPy is incredibly powerful for linear algebra, which is fundamental to many ML algorithms.
 
-Python
-
+```python
 A = np.array([[1, 2], [3, 4]])
 B = np.array([[5, 6], [7, 8]])
 
@@ -206,6 +202,8 @@ except np.linalg.LinAlgError:
 
 # Determinant of a matrix
 print("Determinant of A:", np.linalg.det(A))
+```
+
 These are the core functionalities of NumPy that you'll use constantly in machine learning and data science. Mastering them will significantly boost your productivity and enable you to handle large numerical datasets efficiently.
 
 
