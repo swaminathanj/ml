@@ -9,7 +9,7 @@
 4. Basic ML Terminology ([Lecture 3](notes/Lecture-3.pdf))
 
 ### Python for Machine Learning
-1. NumPy for numerical operations
+1. NumPy for numerical operations [Numpy essentials(numpy.md)
 2. Pandas for data manipulation
 3. Matplotlib/Seaborn for data visualization
 4. Scikit-learn basics (loading datasets, splitting data)
