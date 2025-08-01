@@ -56,18 +56,16 @@ print(f"\nMean Squared Error (MSE): {mse:.2f}")
 print(f"R-squared (R2): {r2:.2f}")
 ```
 
-2. Data Preprocessing
+## 2. Data Preprocessing
 Raw data is rarely ready for ML models. Scikit-learn provides many tools for cleaning and transforming data.
 
-a) Scaling Numerical Features
+### a) Scaling Numerical Features
+
 Many ML algorithms (e.g., SVMs, K-Means, Neural Networks, Gradient Descent based models) perform better when numerical input features are scaled to a similar range.
+- StandardScaler: Scales data to have zero mean and unit variance (Gaussian distribution with mean 0 and std 1). Best for algorithms that assume normally distributed data or rely on distances.
+- MinMaxScaler: Scales data to a fixed range, usually [0, 1]. Good for algorithms that are sensitive to the range of data (e.g., neural networks with sigmoid activation).
 
-StandardScaler: Scales data to have zero mean and unit variance (Gaussian distribution with mean 0 and std 1). Best for algorithms that assume normally distributed data or rely on distances.
-
-MinMaxScaler: Scales data to a fixed range, usually [0, 1]. Good for algorithms that are sensitive to the range of data (e.g., neural networks with sigmoid activation).
-
-Python
-
+```python
 from sklearn.preprocessing import StandardScaler, MinMaxScaler
 
 data_to_scale = np.array([[10, 200], [20, 150], [30, 250]])
@@ -80,24 +78,23 @@ print("\nStandard Scaled Data:\n", scaled_standard_data)
 print("Mean (col 0):", scaled_standard_data[:, 0].mean())
 print("Std Dev (col 0):", scaled_standard_data[:, 0].std())
 
-
 # MinMaxScaler
 scaler_minmax = MinMaxScaler()
 scaled_minmax_data = scaler_minmax.fit_transform(data_to_scale)
 print("\nMin-Max Scaled Data:\n", scaled_minmax_data)
 print("Min (col 0):", scaled_minmax_data[:, 0].min())
 print("Max (col 0):", scaled_minmax_data[:, 0].max())
+```
+
 Important Note: Always fit the scaler on the training data only and then transform both the training and test data using the same fitted scaler. This prevents data leakage from the test set.
 
-b) Encoding Categorical Features
+### b) Encoding Categorical Features
+
 ML models typically require numerical input. Categorical features (like 'City', 'Color') need to be converted.
+- OneHotEncoder: Converts categorical variables into a one-hot numerical array. Each category becomes a new binary column (0 or 1).
+- LabelEncoder: Converts each category into a unique integer. Useful for target labels (y), but generally avoid for input features (X) as it introduces an artificial ordinal relationship.
 
-OneHotEncoder: Converts categorical variables into a one-hot numerical array. Each category becomes a new binary column (0 or 1).
-
-LabelEncoder: Converts each category into a unique integer. Useful for target labels (y), but generally avoid for input features (X) as it introduces an artificial ordinal relationship.
-
-Python
-
+```python
 from sklearn.preprocessing import OneHotEncoder, LabelEncoder
 
 # OneHotEncoder for input features (X)
@@ -118,17 +115,18 @@ encoder_label = LabelEncoder()
 encoded_labels = encoder_label.fit_transform(labels)
 print("Label Encoded Labels:", encoded_labels)
 print("Inverse transformed labels:", encoder_label.inverse_transform([0, 1, 2])) # Map back to original
-3. Model Selection and Evaluation
+```
+
+## 3. Model Selection and Evaluation
 Choosing the best model and hyperparameters, and accurately assessing performance.
 
-a) Train-Test Split (train_test_split)
+### a) Train-Test Split (train_test_split)
 As shown above, this is fundamental for honest model evaluation.
 
-b) Cross-Validation (KFold, StratifiedKFold, cross_val_score)
+### b) Cross-Validation (KFold, StratifiedKFold, cross_val_score)
 A more robust evaluation technique than a single train-test split. It divides the data into 'k' folds, trains on k-1 folds, and tests on the remaining fold, repeating k times. This provides a more reliable estimate of model performance and helps detect overfitting.
 
-Python
-
+```python
 from sklearn.model_selection import cross_val_score
 from sklearn.linear_model import LogisticRegression # For classification example
 
@@ -146,15 +144,15 @@ scores = cross_val_score(clf, X_clf, y_clf, cv=5, scoring='accuracy')
 print(f"\nCross-validation accuracies: {scores}")
 print(f"Mean CV accuracy: {scores.mean():.4f}")
 print(f"Std Dev of CV accuracy: {scores.std():.4f}")
-c) Hyperparameter Tuning (GridSearchCV, RandomizedSearchCV)
+```
+
+### c) Hyperparameter Tuning (GridSearchCV, RandomizedSearchCV)
 Models have hyperparameters that are not learned from data but set by the user (e.g., n_estimators in RandomForest, C in SVM). Tuning them is crucial.
 
-GridSearchCV: Exhaustively searches over a specified parameter grid for the best combination. Can be computationally expensive.
+- GridSearchCV: Exhaustively searches over a specified parameter grid for the best combination. Can be computationally expensive.
+- RandomizedSearchCV: Samples a fixed number of parameter settings from specified distributions. Often faster than GridSearchCV and can find good results.
 
-RandomizedSearchCV: Samples a fixed number of parameter settings from specified distributions. Often faster than GridSearchCV and can find good results.
-
-Python
-
+```python
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import GridSearchCV
 
@@ -180,15 +178,15 @@ print(f"Best cross-validation accuracy: {grid_search.best_score_:.4f}")
 
 # You can then get the best estimator
 best_rf_model = grid_search.best_estimator_
-d) Evaluation Metrics
+```
+
+### d) Evaluation Metrics
 Scikit-learn's metrics module provides a wide range of functions.
 
-Classification: accuracy_score, precision_score, recall_score, f1_score, confusion_matrix, roc_curve, auc, classification_report.
+- Classification: accuracy_score, precision_score, recall_score, f1_score, confusion_matrix, roc_curve, auc, classification_report.
+- Regression: mean_absolute_error, mean_squared_error, r2_score.
 
-Regression: mean_absolute_error, mean_squared_error, r2_score.
-
-Python
-
+```python
 from sklearn.metrics import classification_report, confusion_matrix
 
 # Assuming `best_rf_model` is trained and `X_test`, `y_test` are available
@@ -197,22 +195,20 @@ y_pred_clf = best_rf_model.predict(X_clf) # Should be X_test here
 
 print("\nConfusion Matrix:\n", confusion_matrix(y_clf, y_pred_clf))
 print("\nClassification Report:\n", classification_report(y_clf, y_pred_clf))
-4. Common Estimators (Models)
+```
+
+## 4. Common Estimators (Models)
 Scikit-learn offers a vast array of algorithms. Here are some of the most commonly used:
 
-Regression: LinearRegression, Lasso, Ridge, ElasticNet, DecisionTreeRegressor, RandomForestRegressor, GradientBoostingRegressor, SVR.
+- Regression: LinearRegression, Lasso, Ridge, ElasticNet, DecisionTreeRegressor, RandomForestRegressor, GradientBoostingRegressor, SVR.
+- Classification: LogisticRegression, KNeighborsClassifier, SVC (Support Vector Classifier), DecisionTreeClassifier, RandomForestClassifier, GradientBoostingClassifier, XGBClassifier (though XGBoost has its own library, sklearn API is available).
+- Clustering (Unsupervised): KMeans, DBSCAN, AgglomerativeClustering.
+- Dimensionality Reduction (Unsupervised): PCA (Principal Component Analysis), TSNE (t-SNE for visualization).
 
-Classification: LogisticRegression, KNeighborsClassifier, SVC (Support Vector Classifier), DecisionTreeClassifier, RandomForestClassifier, GradientBoostingClassifier, XGBClassifier (though XGBoost has its own library, sklearn API is available).
-
-Clustering (Unsupervised): KMeans, DBSCAN, AgglomerativeClustering.
-
-Dimensionality Reduction (Unsupervised): PCA (Principal Component Analysis), TSNE (t-SNE for visualization).
-
-5. Pipelines (Pipeline)
+## 5. Pipelines (Pipeline)
 Pipelines allow you to chain multiple processing steps (like scaling, encoding, and then a model) into a single Scikit-learn object. This is excellent for keeping your code clean, avoiding data leakage, and simplifying cross-validation and hyperparameter tuning.
 
-Python
-
+```python
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler, OneHotEncoder
 from sklearn.compose import ColumnTransformer # For different transformations on different columns
@@ -253,4 +249,6 @@ y_pred_pipe = pipeline.predict(X_test_pipe)
 
 print("\nPipeline trained successfully!")
 print(f"Pipeline accuracy on test set: {pipeline.score(X_test_pipe, y_test_pipe):.4f}")
+```
+
 Mastering these Scikit-learn essentials will equip you with the fundamental skills to build, train, evaluate, and deploy a wide range of machine learning models effectively.
