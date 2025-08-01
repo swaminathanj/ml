@@ -6,22 +6,17 @@ along with tools for model selection, preprocessing, and evaluation.
 
 Here are the Scikit-learn essentials you absolutely need to know:
 
-1. The Core Scikit-learn API (The Estimator Interface)
+## 1. The Core Scikit-learn API (The Estimator Interface)
 One of the most powerful features of Scikit-learn is its consistent API across almost all algorithms. Every estimator (model) follows a common interface,
 making it easy to swap out algorithms and understand how to use them.
 
 The common steps are:
+1. Instantiate the Estimator: Create an instance of the model you want to use. You often pass hyperparameters during this step.
+2. Fit the Model: Train the model using your training data. This is where the learning happens.
+3. Predict: Use the trained model to make predictions on new, unseen data.
+4. Evaluate: Assess the model's performance.
 
-Instantiate the Estimator: Create an instance of the model you want to use. You often pass hyperparameters during this step.
-
-Fit the Model: Train the model using your training data. This is where the learning happens.
-
-Predict: Use the trained model to make predictions on new, unseen data.
-
-Evaluate: Assess the model's performance.
-
-Python
-
+```python
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression # An example estimator
@@ -59,6 +54,8 @@ mse = mean_squared_error(y_test, y_pred)
 r2 = r2_score(y_test, y_pred)
 print(f"\nMean Squared Error (MSE): {mse:.2f}")
 print(f"R-squared (R2): {r2:.2f}")
+```
+
 2. Data Preprocessing
 Raw data is rarely ready for ML models. Scikit-learn provides many tools for cleaning and transforming data.
 
