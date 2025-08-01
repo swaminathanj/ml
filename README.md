@@ -10,6 +10,6 @@
 
 ### Python for Machine Learning
 1. NumPy for numerical operations ([Numpy essentials](lab/01_numpy.md))
-2. Pandas for data manipulation
+2. Pandas for data manipulation ([Pandas essentials](lab/02_pandas.md))
 3. Matplotlib/Seaborn for data visualization
 4. Scikit-learn basics (loading datasets, splitting data)
