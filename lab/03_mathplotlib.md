@@ -1,4 +1,4 @@
-# Math Plot Lib
+# MatPlotLib
 
 Matplotlib is the foundational plotting library in Python. While other libraries like Seaborn are built on top of it, 
 understanding Matplotlib's core concepts is crucial for creating highly customized visualizations and for effective 
@@ -113,27 +113,27 @@ plt.title("Histogram of Random Data")
 plt.show()
 ```
 
-4. Customization Essentials
-a) Titles and Labels
+## 4. Customization Essentials
+
+### a) Titles and Labels
 plt.title() or ax.set_title()
 
 plt.xlabel(), plt.ylabel() or ax.set_xlabel(), ax.set_ylabel()
 
-b) Legends
+### b) Legends
 plt.legend() or ax.legend(): Requires a label argument in your plot() calls.
 
-c) Colors, Linestyles, Markers
+### c) Colors, Linestyles, Markers
 Arguments like color, linestyle (-, --, - ., :), marker (o, x, s, ^), linewidth, markersize in plt.plot() and plt.scatter().
 
-d) Axis Limits and Ticks
+### d) Axis Limits and Ticks
 plt.xlim(), plt.ylim() or ax.set_xlim(), ax.set_ylim()
 
 plt.xticks(), plt.yticks() or ax.set_xticks(), ax.set_yticks() to set specific tick locations.
 
 plt.xticklabels(), plt.yticklabels() or ax.set_xticklabels(), ax.set_yticklabels() to set custom labels for ticks.
 
-Python
-
+```python
 x = np.linspace(0, 2 * np.pi, 50)
 y = np.sin(x)
 
@@ -151,20 +151,22 @@ ax.set_xticklabels(tick_labels, fontsize=12)
 
 ax.set_title("Sine Wave with Custom Ticks")
 plt.show()
-e) Grid
+```
+
+### e) Grid
 plt.grid(True) or ax.grid(True) to add a grid.
 
-f) Figure Size
+### f) Figure Size
 plt.figure(figsize=(width, height)) to control the overall size of the plot in inches.
 
-5. Subplots
+## 5. Subplots
 Creating multiple plots within a single Figure.
 
 plt.subplot(nrows, ncols, index): Older, less flexible.
 
 plt.subplots(nrows, ncols): Recommended. Returns a Figure and an array of Axes objects.
 
-Python
+```python
 
 fig, axes = plt.subplots(nrows=1, ncols=2, figsize=(10, 4)) # 1 row, 2 columns
 
@@ -182,10 +184,11 @@ axes[1].set_ylabel("Cos(X)")
 
 plt.tight_layout() # Adjust subplot params for a tight layout
 plt.show()
+```
+
 For more complex grids of subplots:
 
-Python
-
+```python
 fig, axes = plt.subplots(2, 2, figsize=(10, 8)) # 2 rows, 2 columns
 
 # Accessing specific axes: axes[row_index, col_index]
@@ -203,9 +206,11 @@ axes[1, 1].set_title('Bottom Right')
 
 plt.tight_layout()
 plt.show()
-6. Saving Plots
-Python
+```
 
+## 6. Saving Plots
+
+```python
 # Save the last shown plot to a file
 plt.savefig("my_plot.png") # PNG is good for web
 plt.savefig("my_plot.pdf") # PDF is good for print/vector graphics
@@ -213,7 +218,9 @@ plt.savefig("my_plot.svg") # SVG is also vector graphics
 
 # For specific figures:
 fig.savefig("my_specific_figure.png", dpi=300) # dpi controls resolution
-7. plt.show()
+```
+
+## 7. plt.show()
 Essential for displaying the plot. In interactive environments (like Jupyter Notebooks or IPython), you might see plots without it, but it's good practice to include it.
 
 It blocks the program execution until the plot window is closed.
