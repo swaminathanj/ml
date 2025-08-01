@@ -13,3 +13,8 @@
 2. Pandas for data manipulation ([Pandas essentials](lab/02_pandas.md))
 3. Matplotlib/Seaborn for data visualization ([Matplotlib essentials](lab/03_mathplotlib.md))
 4. Scikit-learn basics for loading datasets, splitting data ([Scikit-learn essentials](lab/04_sklearn.md))
+
+### Overview of Mathematical Foundations
+1. Linear Algebra
+2. Calculus
+3. Probability & Statistics
