@@ -4,7 +4,7 @@ This is a basic program which plots a set of (age, salary) data in 2D space usin
 
 ## 1. Basic plot
 
-```python { .line-numbers }
+```python=
 import matplotlib.pyplot as plt
 import numpy as np
 
