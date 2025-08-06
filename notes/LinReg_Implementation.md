@@ -18,7 +18,7 @@ ax.set_ylim(bottom=0, top=140000)          # Adjust y-axis to start from 0
 
 # Plotting points
 plt.plot(age, salary, 'o', label='Points')  # 'o' specifies circular markers
-plt.title("Linear Regression Implementation m={m}, c={c}")
+plt.title("Linear Regression Implementation")
 plt.xlabel("Age")
 plt.ylabel("Salary")
 plt.legend()
