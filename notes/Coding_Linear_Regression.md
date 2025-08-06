@@ -4,12 +4,6 @@
 ## 1. Basic plot
 This is a basic program which plots a set of (age, salary) data in 2D space using Matplotlib.
 
-```javascript {.line-numbers}
-function add(x, y) {
-  return x + y;
-}
-```
-
 ```python {highlight=10}
 import matplotlib.pyplot as plt
 import numpy as np
