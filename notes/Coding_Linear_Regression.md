@@ -4,7 +4,7 @@
 ## 1. Basic plot
 This is a basic program which plots a set of (age, salary) data in 2D space using Matplotlib.
 
-```python
+```python=
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -25,7 +25,7 @@ plt.ylabel("Salary")
 plt.legend()
 
 plt.show()
-```
+```python=
 ![Basic plot](images/lr01.png)
 
 ## 2. Initialization step
