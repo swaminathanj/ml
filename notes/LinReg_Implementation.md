@@ -1,10 +1,10 @@
 # Linear Regression: Step-by-step implementation
 
-This is a basic program which plots a set of (age, salary) data in 2D space using Matplotlib.
 
 ## 1. Basic plot
+This is a basic program which plots a set of (age, salary) data in 2D space using Matplotlib.
 
-```python =
+```python
 import matplotlib.pyplot as plt
 import numpy as np
 
