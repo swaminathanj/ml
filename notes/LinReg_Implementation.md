@@ -44,11 +44,10 @@ plt.title("Linear Regression Implementation - Step by step")
 plt.xlabel("Age")
 plt.ylabel("Salary")
 plt.legend()
-<strong>
+
 m=0
 c=5000
 ax.axline((0, c), slope=m, color='blue', label=f'y = {m}x + {c}')
-</strong>
 
 plt.show()
 ```
