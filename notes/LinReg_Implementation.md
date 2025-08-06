@@ -26,6 +26,7 @@ plt.legend()
 
 plt.show()
 ```
+![Basic plot](images/lr01.png)
 
 ## 2. Initialization step
 Set initial values for **slope m** and **y-intercept c** and draw a line.
