@@ -56,6 +56,8 @@ ax.axline((0, c), slope=m, color='blue', label=f'y = {m}x + {c}')
 
 plt.show()
 ```
+![Initialization of m and c](images/lr02.png)
+
 ## 3. Defining error/loss function
 Determine the error with respect to the line using MSE.
 
