@@ -79,7 +79,49 @@ print("SSE for slope ", m, " and ", c ," is ", error(m, c, age, salary))
 plt.show()
 ```
 
-## 4. Defining the step function
+## 4. Defining the step gradient function
+Compute the step gradient for m and c.
+
+```python
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Error function definition
+...
+
+# Step gradient function definition
+def step_gradient(m_current, c_current, x, y, learning_rate):
+  for i in range(0, len(x)):
+    m_gradient = 0
+    c_gradient = 0
+    N = len(age)
+    for i in range(0, len(x)):
+        m_gradient += -(2/N)* (y[i] - (m_current * x[i] + c_current)) * x[i]
+        c_gradient += -(2/N)* (y[i] - (m_current * x[i] + c_current))
+    new_m = m_current - (learning_rate * m_gradient)
+    new_c = c_current - (learning_rate * c_gradient)
+    return [new_m, new_c]
+
+# Data points
+...
+
+# Define the plot area and set the range
+...
+
+# Initialize slope & y-intercept and draw a line
+...
+
+# Call error function to compute the error
+...
+
+# Call step gradient and compute the new m and c and plot the line
+learning_rate = 0.0001
+m, c = step_gradient(m, c, age, salary, learning_rate)
+ax.axline((0, c), slope=m, color='blue', label=f'y = {m}x + {c}')
+print("SSE for slope ", m, " and ", c ," is ", error(m, c, age, salary))
+
+plt.show()
+```
 
 ## 5. Gradient descent
 
