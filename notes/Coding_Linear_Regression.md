@@ -10,8 +10,8 @@ import numpy as np
 
 # Define the plot area and set the range
 f, ax = plt.subplots() 
-ax.set_xlim(left=0, right=100)             # Set x-axis range
-ax.set_ylim(bottom=0, top=140000)          # Set y-axis range
+ax.set_xlim(left=0, right=100)
+ax.set_ylim(bottom=0, top=140000)
 
 # Data points
 age = [24, 38, 45, 29, 54, 33]
@@ -36,20 +36,12 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Data points
-age = [24, 38, 45, 29, 54, 33]
-salary = [35000, 79000, 108000, 64000, 98000, 86000]
+...
 
 # Define the plot area and set the range
-f, ax = plt.subplots() 
-ax.set_xlim(left=0, right=100) 
-ax.set_ylim(bottom=0, top=140000) 
-# Plotting points
-plt.plot(age, salary, 'o', label='Points')  # 'o' specifies circular markers
-plt.title("Linear Regression Implementation - Step by step")
-plt.xlabel("Age")
-plt.ylabel("Salary")
-plt.legend()
+...
 
+# Initialized slope & y-intercept and draw a line
 m=0
 c=5000
 ax.axline((0, c), slope=m, color='blue', label=f'y = {m}x + {c}')
