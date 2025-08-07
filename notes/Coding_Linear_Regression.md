@@ -41,7 +41,7 @@ import numpy as np
 # Define the plot area and set the range
 ...
 
-# Initialized slope & y-intercept and draw a line
+# Initialize slope & y-intercept and draw a line
 m=0
 c=5000
 ax.axline((0, c), slope=m, color='blue', label=f'y = {m}x + {c}')
@@ -51,9 +51,33 @@ plt.show()
 ![Initialization of m and c](images/lr02.png)
 
 ## 3. Defining error/loss function
-Determine the error with respect to the line using MSE.
+Determine the error with respect to the line using Sum of Squares Error.
 
+```python
+import matplotlib.pyplot as plt
+import numpy as np
 
+# Error function definition
+def error(m, c, x, y):
+    totalError = 0
+    for i in range(0, len(x)):
+        totalError += (y[i] - (m*x[i] + c))**2
+    return totalError/float(len(x))
+
+# Data points
+...
+
+# Define the plot area and set the range
+...
+
+# Initialize slope & y-intercept and draw a line
+...
+
+# Call error function to compute the error
+print("SSE for slope ", m, " and ", c ," is ", error(m, c, age, salary))
+
+plt.show()
+```
 
 ## 4. Defining the step function
 
