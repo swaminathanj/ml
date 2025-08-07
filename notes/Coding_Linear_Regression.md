@@ -8,14 +8,14 @@ This is a basic program which plots a set of (age, salary) data in 2D space usin
 import matplotlib.pyplot as plt
 import numpy as np
 
-# Data points
-age = [24, 38, 45, 29, 54, 33]
-salary = [35000, 79000, 108000, 64000, 98000, 86000]
-
 # Define the plot area and set the range
 f, ax = plt.subplots() 
 ax.set_xlim(left=0, right=100)             # Set x-axis range
 ax.set_ylim(bottom=0, top=140000)          # Set y-axis range
+
+# Data points
+age = [24, 38, 45, 29, 54, 33]
+salary = [35000, 79000, 108000, 64000, 98000, 86000]
 
 # Plotting points
 plt.plot(age, salary, 'o', label='Points')  # 'o' specifies circular markers
