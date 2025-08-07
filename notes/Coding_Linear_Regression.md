@@ -130,7 +130,7 @@ plt.show()
 *SSE for slope  585.7666666666667  and  5014.666666666667  is  3021712330.0479627*  
 ![Updating m and c](images/lr04.png)
 
-## 5. Determine the best fit by gradient descent
+## 5. Determine the best fitting line (m & c) by gradient descent
 Iterate repeatedly to determine the new values of m and c and draw the lines. You can note that the gap reduces as you go closer.
 
 ```python
@@ -165,3 +165,4 @@ for i in range(0, num_iterations):
 
 plt.show()
 ```
+![Iterative commputation of m & c](images/lr05.png)
