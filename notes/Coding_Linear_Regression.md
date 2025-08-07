@@ -61,7 +61,8 @@ import numpy as np
 def error(m, c, x, y):
     totalError = 0
     for i in range(0, len(x)):
-        totalError += (y[i] - (m*x[i] + c))**2
+        yp = m*x[i] + c
+        totalError += (y[i] - yp)**2
     return totalError/float(len(x))
 
 # Data points
@@ -78,7 +79,7 @@ print("SSE for slope ", m, " and ", c ," is ", error(m, c, age, salary))
 
 plt.show()
 ```
-**Output**:
+**Output**:  
 *SSE for slope  0  and  5000  is  5946000000.0*
 
 ## 4. Defining the step gradient function
