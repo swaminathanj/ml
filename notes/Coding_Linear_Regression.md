@@ -125,5 +125,38 @@ print("SSE for slope ", m, " and ", c ," is ", error(m, c, age, salary))
 plt.show()
 ```
 
-## 5. Gradient descent
+## 5. Determine the best fit by gradient descent
+Iterate repeatedly to determine the new values of m and c and draw the lines. You can note that the gap reduces as you go closer.
 
+```python
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Error function definition
+...
+
+# Step gradient function definition
+...
+
+# Data points
+...
+
+# Define the plot area and set the range
+...
+
+# Initialize slope & y-intercept and draw a line
+...
+
+# Call error function to compute the error
+...
+
+# Call step gradient and compute the new m and c and plot the line
+learning_rate = 0.0001
+num_iterations = 1000
+for i in range(0, num_iterations):
+  m, c = step_gradient(m, c, age, salary, learning_rate)
+  ax.axline((0, c), slope=m, color='blue', label=f'y = {m}x + {c}')
+  print("SSE for slope ", m, " and ", c ," is ", error(m, c, age, salary))
+
+plt.show()
+```
