@@ -126,6 +126,7 @@ plt.show()
 ```
 SSE for slope  0  and  5000  is  5946000000.0
 SSE for slope  585.7666666666667  and  5014.666666666667  is  3021712330.0479627
+![Updating m and c](images/lr04.png)
 
 ## 5. Determine the best fit by gradient descent
 Iterate repeatedly to determine the new values of m and c and draw the lines. You can note that the gap reduces as you go closer.
