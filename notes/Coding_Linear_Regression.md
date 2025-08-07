@@ -78,6 +78,8 @@ print("SSE for slope ", m, " and ", c ," is ", error(m, c, age, salary))
 
 plt.show()
 ```
+**Output**:
+*SSE for slope  0  and  5000  is  5946000000.0*
 
 ## 4. Defining the step gradient function
 Compute the step gradient for m and c.
