@@ -29,9 +29,16 @@
 
 ### Linear Regression
 1. Simple Linear Regression
-2. Multiple Linear Regression
-3. Cost function (Mean Squared Error - MSE)
-4. Gradient Descent algorithm (intuition and application)
+2. Cost function (Mean Squared Error - MSE)
+3. Gradient Descent algorithm (intuition and application)
+4. Multiple Linear Regression
 5. Assumptions of Linear Regression
 6. Implementation ([Coding step-by-step](Coding_Linear_Regression.md))
-7. Lab Assignment ([Activity 2](lab/05_lrimpl.md)) 
+7. Lab Assignment ([Lab Activity](lab/05_lrimpl.md))
+
+### Model Evaluation for Regression
+1. R^2, Adjusted R^2
+2. MAE, MSE, RMSE
+3. Overfitting and Underfitting
+4. Bias-Variance Tradeoff
+5. Cross-validation (k-fold, leave-one-out)
