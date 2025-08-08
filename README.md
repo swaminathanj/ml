@@ -15,7 +15,7 @@
 4. Scikit-learn basics for loading datasets, splitting data ([Scikit-learn essentials](lab/04_sklearn.md))
 
 ### Overview of Mathematical Foundations
-1. Linear Algebra: Vectors, matrices, dot products, matrix multiplication (intuition for transformations)
+1. Linear Algebra ([Relevance of LA in ML](la_relevance.md))
 2. Calculus: Derivatives, gradients (intuition for optimization)
 3. Probability & Statistics: Basic probability rules, random variables, distributions (Gaussian, Bernoulli), mean, median, variance, standard deviation, correlation, hypothesis testing (brief overview for context)
 
