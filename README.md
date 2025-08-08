@@ -33,8 +33,6 @@
 3. Gradient Descent algorithm (intuition and application)
 4. Multiple Linear Regression
 5. Assumptions of Linear Regression
-6. Implementation ([Coding step-by-step](Coding_Linear_Regression.md))
-7. Lab Assignment ([Lab Activity](lab/05_lrimpl.md))
 
 ### Model Evaluation for Regression
 1. R^2, Adjusted R^2
@@ -42,3 +40,12 @@
 3. Overfitting and Underfitting
 4. Bias-Variance Tradeoff
 5. Cross-validation (k-fold, leave-one-out)
+
+### Regularization
+1. Ridge Regression (L2 regularization)
+2. Lasso Regression (L1 regularization)
+3. Elastic Net
+
+### Lab Activity
+1. Implementation ([Coding step-by-step](Coding_Linear_Regression.md))
+2. Lab Assignment ([Lab Activity](lab/05_lrimpl.md))
