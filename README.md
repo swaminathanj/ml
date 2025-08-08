@@ -24,3 +24,4 @@
 ### Linear Regression
 1. Simple linear regression
 2. Implementation ([Coding step-by-step](Coding_Linear_Regression.md))
+3. Lab Assignment ([Activity 2](lab/05_lrimpl.md))
