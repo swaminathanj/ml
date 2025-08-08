@@ -184,4 +184,5 @@ SSE for slope  1975.8920932059075  and y-intercept  5023.875139806571  is  15718
 SSE for slope  1975.8927346435546  and y-intercept  5023.849566885779  is  157187239.94655704  
 SSE for slope  1975.8933760725088  and y-intercept  5023.823994311551  is  157187233.40292156  
 SSE for slope  1975.8940174927704  and y-intercept  5023.798422083883  is  157187226.85946345  
-![Iterative commputation of m & c](images/lr05.png)
+![Iterative computation of m & c](images/lr05.png)
+![Final computation of m & c](images/lr05b.png)
