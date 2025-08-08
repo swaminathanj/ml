@@ -18,3 +18,9 @@
 1. Linear Algebra: Vectors, matrices, dot products, matrix multiplication (intuition for transformations)
 2. Calculus: Derivatives, gradients (intuition for optimization)
 3. Probability & Statistics: Basic probability rules, random variables, distributions (Gaussian, Bernoulli), mean, median, variance, standard deviation, correlation, hypothesis testing (brief overview for context)
+
+## 2. Supervised Learning - Regression
+
+### Linear Regression
+1. Simple linear regression
+2. Linear Regression Implementation [Coding step-by-step]{Coding_Linear_Regression.md)
