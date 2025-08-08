@@ -16,8 +16,8 @@
 
 ### Overview of Mathematical Foundations
 1. Linear Algebra ([Importance of LA in ML](notes/Lecture-4.pdf))
-2. Calculus: Derivatives, gradients (intuition for optimization)
-3. Probability & Statistics ([Importance of Probability & Statistics in ML](notes/Lecture-5.pdf))
+2. Probability & Statistics ([Importance of Probability & Statistics in ML](notes/Lecture-5.pdf))
+3. Calculus ([Importance of Calculus in ML](notes/Lecture-6.pdf))
 
 ## 2. Supervised Learning - Regression
 
