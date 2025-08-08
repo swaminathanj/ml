@@ -23,4 +23,4 @@
 
 ### Linear Regression
 1. Simple linear regression
-2. Linear Regression Implementation [Coding step-by-step](Coding_Linear_Regression.md)
+2. Linear Regression Implementation ([Coding step-by-step](Coding_Linear_Regression.md))
