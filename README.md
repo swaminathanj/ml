@@ -42,8 +42,8 @@
 5. Cross-validation (k-fold, leave-one-out)
 
 ### Regularization
-1. Ridge Regression (L2 regularization)
-2. Lasso Regression (L1 regularization)
+1. Ridge Regression (L2 regularization) ([Ridge](https://www.geeksforgeeks.org/machine-learning/implementation-of-ridge-regression-from-scratch-using-python/))
+2. Lasso Regression (L1 regularization) ([Lasso](https://www.geeksforgeeks.org/machine-learning/implementation-of-lasso-regression-from-scratch-using-python/))
 3. Elastic Net
 
 ### Lab Activity
