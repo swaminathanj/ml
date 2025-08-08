@@ -1,4 +1,4 @@
-# Linear Regression - Implementation & Analysis
+# Activity 2: Linear Regression - Implementation & Analysis
 
 ## Step-by-step implementation
 1. Implement the simple linear regression algorithm by following the steps provided in [Coding step-by-step](Coding_Linear_Regression.md) and get a hang on how the implementation works.
