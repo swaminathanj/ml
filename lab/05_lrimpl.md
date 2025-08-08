@@ -14,15 +14,22 @@
 7. Does starting with a different inital values for m and c matter? Check if you are able to get the same (very close to) final m and c. Prove by experiment.
 8. Suppose you updated only m (but not c), how would the gradient descent work. What is final value of c? How does it compare with original experiment?
 9. Suppose you updated only c (but not n), how would the gradient descent work. What is final value of m? How does it compare with original experiment?
-10. 
 
 # Playing around with the running rate
-12. Observe the behavior of the program for different values of running_rate?
-13. If running rate is set high, you may not converge. Can you substantiate this with experiments?
-14. If running rate is too low, you will take longer time to converge. Can you substantiate this with experiments?
-15. Does the running rate have any influence of number of iterations? Substantiate with experiments.
+10. Observe the behavior of the program for different values of running_rate?
+11. If running rate is set high, you may not converge. Can you substantiate this with experiments?
+12. If running rate is too low, you will take longer time to converge. Can you substantiate this with experiments?
+13. Does the running rate have any influence of number of iterations? Substantiate with experiments.
 
 ## Playing around with different distance measures
-16. The program uses Mean Squared Error (MSE) to implement the error function. Replace it with Mean Absolute Error (MAE) to determine how your program behaves?
-17. Implement Sum of Squared Error to observe if there are any changes in your program behavior.
-18. Implement Root Mean Square Errot to observe if theere an any cnages in your program behavior.
+14. The program uses Mean Squared Error (MSE) to implement the error function. Replace it with Mean Absolute Error (MAE) to determine how your program behaves?
+15. Implement Sum of Squared Error to observe how it affects the prediction. Write down your observations.
+16. Implement Root Mean Square Errot to observe how it affects the prediction. Write down your observations.
+17. Instead of having fixed number of iterations, can you stop gradient descent if the error value reaches below a threshold?
+
+## Comparing your implementation with standard libraries
+18. Can you use Scikit-learn linear regression algorithm and compare the final m and c values against your implementation?
+19. Find out the features implemented in Scikit-learn linear regression algorithm and try to add those to your implementation.
+
+# Multiple linear regression
+20. Can you generalize this implementation to multiple dimensions? In other words, can you modify the program to implement multiple linear regression?
