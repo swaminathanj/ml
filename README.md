@@ -21,7 +21,17 @@
 
 ## 2. Supervised Learning - Regression
 
+### Data Preprocessing and Exploration
+1. Handling missing values
+2. Feature scaling (standardization, normalization)
+3. One-hot encoding for categorical features
+4. Exploratory Data Analysis (EDA)
+
 ### Linear Regression
-1. Simple linear regression
-2. Implementation ([Coding step-by-step](Coding_Linear_Regression.md))
-3. Lab Assignment ([Activity 2](lab/05_lrimpl.md)) 
+1. Simple Linear Regression
+2. Multiple Linear Regression
+3. Cost function (Mean Squared Error - MSE)
+4. Gradient Descent algorithm (intuition and application)
+5. Assumptions of Linear Regression
+6. Implementation ([Coding step-by-step](Coding_Linear_Regression.md))
+7. Lab Assignment ([Activity 2](lab/05_lrimpl.md)) 
