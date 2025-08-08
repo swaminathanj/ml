@@ -30,7 +30,7 @@
 ### Linear Regression
 1. Simple Linear Regression ([Mathematical intuition](https://www.youtube.com/watch?v=OM1dtIt0VNo))
 2. Cost function (Mean Squared Error - MSE)
-3. Gradient Descent algorithm (intuition and application)
+3. Gradient Descent algorithm ([Mathematical intuition](https://youtu.be/9H-s5cQ1iBk?si=um9J605sChHFYH6b))
 4. Multiple Linear Regression
 5. Assumptions of Linear Regression
 
