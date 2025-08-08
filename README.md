@@ -28,7 +28,7 @@
 4. Exploratory Data Analysis (EDA)
 
 ### Linear Regression
-1. Simple Linear Regression ([Mathematical intuition](https://www.youtube.com/watch?v=OM1dtIt0VNo))
+1. Simple Linear Regression ([Mathematical intuition](https://www.youtube.com/watch?v=OM1dtIt0VNo), [Geeks-for-geeks](https://www.geeksforgeeks.org/machine-learning/ml-linear-regression/))
 2. Cost function (Mean Squared Error - MSE)
 3. Gradient Descent algorithm ([Mathematical intuition](https://youtu.be/9H-s5cQ1iBk?si=um9J605sChHFYH6b))
 4. Multiple Linear Regression
