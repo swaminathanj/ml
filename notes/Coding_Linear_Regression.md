@@ -75,12 +75,12 @@ def error(m, c, x, y):
 ...
 
 # Call error function to compute the error
-print("SSE for slope ", m, " and y-intercept ", c ," is ", error(m, c, age, salary))
+print("MSE for slope ", m, " and y-intercept ", c ," is ", error(m, c, age, salary))
 
 plt.show()
 ```
 **Output**:  
-*SSE for slope  0  and y-intercept  5000  is  5946000000.0*
+*MSE for slope  0  and y-intercept  5000  is  5946000000.0*
 
 ## 4. Defining the step gradient function
 Compute the step gradient for m and c.
@@ -121,13 +121,13 @@ def step_gradient(m_current, c_current, x, y, learning_rate):
 learning_rate = 0.0001
 m, c = step_gradient(m, c, age, salary, learning_rate)
 ax.axline((0, c), slope=m, color='blue', label=f'y = {m}x + {c}')
-print("SSE for slope ", m, " and y-intercept ", c ," is ", error(m, c, age, salary))
+print("MSE for slope ", m, " and y-intercept ", c ," is ", error(m, c, age, salary))
 
 plt.show()
 ```
 **Output**  
-*SSE for slope  0  and y-intercept  5000  is  5946000000.0*  
-*SSE for slope  585.7666666666667  and y-intercept  5014.666666666667  is  3021712330.0479627*  
+*MSE for slope  0  and y-intercept  5000  is  5946000000.0*  
+*MSE for slope  585.7666666666667  and y-intercept  5014.666666666667  is  3021712330.0479627*  
 ![Updating m and c](images/lr04.png)
 
 ## 5. Determine the best fitting line (m & c) by gradient descent
@@ -161,28 +161,28 @@ num_iterations = 1000
 for i in range(0, num_iterations):
   m, c = step_gradient(m, c, age, salary, learning_rate)
   ax.axline((0, c), slope=m, color='blue', label=f'y = {m}x + {c}')
-  print("SSE for slope ", m, " and y-intercept ", c ," is ", error(m, c, age, salary))
+  print("MSE for slope ", m, " and y-intercept ", c ," is ", error(m, c, age, salary))
 
 plt.show()
 ```
 **Output**  
-SSE for slope  0  and y-intercept  5000  is  5946000000.0  
-SSE for slope  585.7666666666667  and y-intercept  5014.666666666667  is  3021712330.0479627  
-SSE for slope  997.8225966666666  and y-intercept  5024.976201111112  is  1574665066.852526  
-SSE for slope  1287.6822500062963  and y-intercept  5032.220724569001  is  858611783.7046785  
-SSE for slope  1491.5833131268007  and y-intercept  5037.30917569904  is  504281749.1369992  
-SSE for slope  1635.0170736870916  and y-intercept  5040.880944569657  is  328945950.0005138  
-SSE for slope  1735.9152985940595  and y-intercept  5043.385808133003  is  242183214.5069467  
-SSE for slope  1806.8920334269449  and y-intercept  5045.140160585161  is  199249754.20876214  
-SSE for slope  1856.820589259963  and y-intercept  5046.366568437903  is  178004663.7732387  
+MSE for slope  0  and y-intercept  5000  is  5946000000.0  
+MSE for slope  585.7666666666667  and y-intercept  5014.666666666667  is  3021712330.0479627  
+MSE for slope  997.8225966666666  and y-intercept  5024.976201111112  is  1574665066.852526  
+MSE for slope  1287.6822500062963  and y-intercept  5032.220724569001  is  858611783.7046785  
+MSE for slope  1491.5833131268007  and y-intercept  5037.30917569904  is  504281749.1369992  
+MSE for slope  1635.0170736870916  and y-intercept  5040.880944569657  is  328945950.0005138  
+MSE for slope  1735.9152985940595  and y-intercept  5043.385808133003  is  242183214.5069467  
+MSE for slope  1806.8920334269449  and y-intercept  5045.140160585161  is  199249754.20876214  
+MSE for slope  1856.820589259963  and y-intercept  5046.366568437903  is  178004663.7732387  
 :  
 :  
 :  
-SSE for slope  1975.8908103045349  and y-intercept  5023.926286687866  is  157187259.57852772  
-SSE for slope  1975.8914517595676  and y-intercept  5023.900713073932  is  157187253.0343601  
-SSE for slope  1975.8920932059075  and y-intercept  5023.875139806571  is  157187246.49036995  
-SSE for slope  1975.8927346435546  and y-intercept  5023.849566885779  is  157187239.94655704  
-SSE for slope  1975.8933760725088  and y-intercept  5023.823994311551  is  157187233.40292156  
-SSE for slope  1975.8940174927704  and y-intercept  5023.798422083883  is  157187226.85946345  
+MSE for slope  1975.8908103045349  and y-intercept  5023.926286687866  is  157187259.57852772  
+MSE for slope  1975.8914517595676  and y-intercept  5023.900713073932  is  157187253.0343601  
+MSE for slope  1975.8920932059075  and y-intercept  5023.875139806571  is  157187246.49036995  
+MSE for slope  1975.8927346435546  and y-intercept  5023.849566885779  is  157187239.94655704  
+MSE for slope  1975.8933760725088  and y-intercept  5023.823994311551  is  157187233.40292156  
+MSE for slope  1975.8940174927704  and y-intercept  5023.798422083883  is  157187226.85946345  
 ![Iterative computation of m & c](images/lr05.png)
 ![Final computation of m & c](images/lr05b.png)
