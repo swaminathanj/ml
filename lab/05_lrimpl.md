@@ -15,7 +15,7 @@
 8. Suppose you updated only m (but not c), how would the gradient descent work. What is final value of c? How does it compare with original experiment?
 9. Suppose you updated only c (but not n), how would the gradient descent work. What is final value of m? How does it compare with original experiment?
 
-#E Playing around with the running rate
+## Playing around with the running rate
 10. Observe the behavior of the program for different values of running_rate?
 11. If running rate is set high, you may not converge. Can you substantiate this with experiments?
 12. If running rate is too low, you will take longer time to converge. Can you substantiate this with experiments?
