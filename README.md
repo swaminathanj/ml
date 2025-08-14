@@ -49,3 +49,43 @@
 ### Lab Activity
 1. Implementation ([Coding step-by-step](Coding_Linear_Regression.md))
 2. Lab Assignment - 1 ([Lab Activity](lab/05_lrimpl.md))
+
+## 3. Supervised Learning - Classification
+
+### Introduction to Classification
+1. Binary vs. Multi-class classification
+2. Classification metrics (Accuracy, Precision, Recall, F1-score, Confusion Matrix)
+3. ROC Curve and AUC
+
+### Logistic Regression
+1. Sigmoid function
+2. Cost function (Cross-Entropy)
+3. Decision boundary
+
+### K-Nearest Neighbors (KNN)
+1. Distance metrics
+2. Choosing 'k'
+
+### Support Vector Machines (SVM)
+1. Linear SVM (maximal margin hyperplane)
+2. Kernels (polynomial, RBF) for non-linear separation
+
+### Decision Trees
+1. Entropy, Gini impurity
+2. Information Gain
+3. Pruning
+
+### Ensemble Methods
+1. Bagging: Random Forest
+2. Boosting: AdaBoost, Gradient Boosting Machines (GBM), XGBoost, LightGBM, CatBoost
+
+## 4. Unsupervised Learning
+
+### Clustering
+1. K-Means Clustering: Elbow method, silhouette score
+2. Hierarchical Clustering: Dendrograms
+3. DBSCAN (briefly).
+
+### Dimensionality Reduction
+1. Principal Component Analysis (PCA): Intuition, eigen decomposition (briefly), applications
+
