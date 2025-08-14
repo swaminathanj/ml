@@ -22,10 +22,10 @@
 ## 2. Supervised Learning - Regression
 
 ### Data Preprocessing and Exploration
-1. Handling missing values ([Reading](https://www.geeksforgeeks.org/machine-learning/managing-missing-data-in-linear-regression/)]
-2. Feature scaling - standardization, normalization - ([Reading](https://www.geeksforgeeks.org/machine-learning/ml-feature-scaling-part-2/))
-3. One-hot encoding for categorical features ([Reading](https://www.geeksforgeeks.org/machine-learning/ml-one-hot-encoding/))
-4. Exploratory Data Analysis EDA ([Reading](https://www.geeksforgeeks.org/data-analysis/what-is-exploratory-data-analysis/))
+1. Handling missing values ([Reading from geeks-for-geeks](https://www.geeksforgeeks.org/machine-learning/managing-missing-data-in-linear-regression/)]
+2. Feature scaling - standardization, normalization - ([Reading from geeks-for-geeks](https://www.geeksforgeeks.org/machine-learning/ml-feature-scaling-part-2/))
+3. One-hot encoding for categorical features ([Reading from geeks-for-geeks](https://www.geeksforgeeks.org/machine-learning/ml-one-hot-encoding/))
+4. Exploratory Data Analysis EDA ([Reading from geeks-for-geeks](https://www.geeksforgeeks.org/data-analysis/what-is-exploratory-data-analysis/))
 
 ### Linear Regression
 1. Simple Linear Regression ([Mathematical intuition](https://www.youtube.com/watch?v=OM1dtIt0VNo))
