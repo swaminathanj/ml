@@ -25,7 +25,7 @@
 1. Handling missing values ([Reading](https://www.geeksforgeeks.org/machine-learning/managing-missing-data-in-linear-regression/)]
 2. Feature scaling - standardization, normalization - ([Reading](https://www.geeksforgeeks.org/machine-learning/ml-feature-scaling-part-2/))
 3. One-hot encoding for categorical features ([Reading](https://www.geeksforgeeks.org/machine-learning/ml-one-hot-encoding/))
-4. Exploratory Data Analysis (EDA)
+4. Exploratory Data Analysis EDA ([Reading](https://www.geeksforgeeks.org/data-analysis/what-is-exploratory-data-analysis/))
 
 ### Linear Regression
 1. Simple Linear Regression ([Mathematical intuition](https://www.youtube.com/watch?v=OM1dtIt0VNo))
@@ -48,4 +48,4 @@
 
 ### Lab Activity
 1. Implementation ([Coding step-by-step](Coding_Linear_Regression.md))
-2. Lab Assignment ([Lab Activity](lab/05_lrimpl.md))
+2. Lab Assignment - 1 ([Lab Activity](lab/05_lrimpl.md))
