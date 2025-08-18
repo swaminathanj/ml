@@ -32,14 +32,15 @@
 2. Cost function (Mean Squared Error - MSE)
 3. Gradient Descent algorithm ([Mathematical intuition](https://youtu.be/9H-s5cQ1iBk?si=um9J605sChHFYH6b))
 4. Multiple Linear Regression ([Geeks-for-geeks](https://www.geeksforgeeks.org/machine-learning/ml-linear-regression/))
-5. Assumptions of Linear Regression
+5. Assumptions of Linear Regression ([Geeks-for-geeks](https://www.geeksforgeeks.org/machine-learning/assumptions-of-linear-regression/))
 
 ### Model Evaluation for Regression
 1. R^2, Adjusted R^2
 2. MAE, MSE, RMSE
 3. Overfitting and Underfitting
 4. Bias-Variance Tradeoff
-5. Cross-validation (k-fold, leave-one-out)
+5. Multi-colinearity ([Geeks-for-geeks](https://www.geeksforgeeks.org/machine-learning/multicollinearity-in-regression-analysis/))
+6. Cross-validation (k-fold, leave-one-out)
 
 ### Regularization
 1. Ridge Regression (L2 regularization) ([Ridge](https://www.geeksforgeeks.org/machine-learning/implementation-of-ridge-regression-from-scratch-using-python/))
