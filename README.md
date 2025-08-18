@@ -35,7 +35,7 @@
 5. Assumptions of Linear Regression ([Reading from Geeks-for-geeks](https://www.geeksforgeeks.org/machine-learning/assumptions-of-linear-regression/))
 
 ### Model Evaluation for Regression
-1. R^2, Adjusted R^2
+1. R^2, Adjusted R^2 ([Video on R^2](https://www.youtube.com/watch?v=-7U10N8PvlQ), [Adjusted R^2](https://www.youtube.com/watch?v=IN6YkHtdgZI))
 2. MAE, MSE, RMSE
 3. Overfitting and Underfitting
 4. Bias-Variance Tradeoff
