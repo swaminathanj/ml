@@ -2,8 +2,8 @@
 
 ## Datasets
 1. Experience-Salary.csv
-2. Student_dataset_1.csv
-3. Student_dataset_2.csv
+2. student_dataset_1.csv
+3. student_dataset_2.csv
 
 ## Plain linear regression code
 ```python
