@@ -8,9 +8,11 @@
 ## Plain linear regression code
 
 This is a class based implementation of linear regression code which does exactly the same thing as what you had implemented in previous lab.
-- First go through the code and understand it well
-- Execute and see how it works
-- Add the bias component for lasso regression while computing the gradient in *updae_weights* method. Check the parameter and evaluation values.
+1. First go through the code and understand it well
+2. Execute and see how it works with Experience-Salary.csv
+3. Execute and see how it works with student_dataset_1.csv
+4. Execute and see how it works with student_dataset_2.csv
+5. Add the bias component for lasso regression while computing the gradient in *updae_weights* method. Check the parameter and evaluation values.
   ```
   dW[j] = (-2 * (self.X[:, j]).dot(self.Y - Y_pred) + l1_penalty * abs(W[j])) / self.m 
   ```
