@@ -4,7 +4,7 @@
 1. [Experience-Salary.csv](Experience-Salary.csv) (1 feature)
 2. [student_dataset_1.csv](student_dataset_1.csv) (1 feature)
 3. [student_dataset_2.csv](student_dataset_2.csv) (2 features)
-4. [insurance.csv](insurance.csv) (6 features)
+4. [insurance.csv](insurance.csv) (6 features) - Use it for 7th question
 
 ## Plain linear regression code
 
