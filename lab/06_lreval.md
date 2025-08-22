@@ -1,5 +1,10 @@
 # Linear Regression - Evaluation, Tuning, Regularization
 
+## Datasets
+1. Experience-Salary.csv
+2. Student_dataset_1.csv
+3. Student_dataset_2.csv
+
 ## Plain linear regression code
 ```python
 import numpy as np
@@ -9,7 +14,6 @@ from sklearn.preprocessing import StandardScaler
 import matplotlib.pyplot as plt
 from google.colab import files # Import files module for uploading
 from sklearn.metrics import r2_score
-
 
 class LinearRegression():
     def __init__(self, learning_rate, iterations, l1_penalty):
