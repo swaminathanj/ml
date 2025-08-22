@@ -4,6 +4,7 @@
 1. [Experience-Salary.csv](Experience-Salary.csv) (1 feature)
 2. [student_dataset_1.csv](student_dataset_1.csv) (1 feature)
 3. [student_dataset_2.csv](student_dataset_2.csv) (2 features)
+4. [insurance.csv](insurance.csv) (6 features)
 
 ## Plain linear regression code
 
@@ -12,11 +13,12 @@ This is a class based implementation of linear regression code which does exactl
 2. Execute and see how it works with Experience-Salary.csv
 3. Execute and see how it works with student_dataset_1.csv
 4. Execute and see how it works with student_dataset_2.csv
-5. Add the bias component for lasso regression while computing the gradient in *updae_weights* method. Check the parameter and evaluation values.
+5. Add the bias component for lasso regression while computing the gradient in *updae_weights* method. Check the final parameters/weights, prediction output and evaluation values (R2 & Adjusted R2 scores) and make the observations.
   ```
   dW[j] = (-2 * (self.X[:, j]).dot(self.Y - Y_pred) + l1_penalty * abs(W[j])) / self.m 
   ```
-- Replace it with the bias component for ridge regression. Check the parameter and evaluation values.
+6. Replace it with the bias component for ridge regression. Check the final parameters/weights, prediction output and evaluation values (R2 & Adjusted R2 scores) and make the observations.
+7. Implement [Linear Regression with K-Fold Cross Validation in Python: Predict the Health Insurance Cost](https://priscilla-vanny.medium.com/linear-regression-with-k-fold-cross-validation-in-python-predict-the-health-insurance-cost-7badf90fc1b8) and see how it works.
 
 ```python
 import numpy as np
