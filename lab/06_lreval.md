@@ -8,6 +8,10 @@
 ## Plain linear regression code
 
 This is a class based implementation of linear regression code which does exactly the same thing as what you had implemented in previous lab.
+- First go through the code and understand it well
+- Execute and see how it works
+- Add the bias component for lasso regression while computing the gradient in *fit* method. Check the parameter and evaluation values.
+- Replace it with the bias component for ridge regression. Check the parameter and evaluation values.
 
 ```python
 import numpy as np
@@ -42,10 +46,10 @@ class LinearRegression():
         for j in range(self.n):
             if self.W[j] > 0:
                 # Gradient for positive weights
-                dW[j] = (-2 * (self.X[:, j]).dot(self.Y - Y_pred)) / self.m # + self.l1_penalty) / self.m
+                dW[j] = (-2 * (self.X[:, j]).dot(self.Y - Y_pred)) / self.m 
             else:
                 # Gradient for non-positive weights
-                dW[j] = (-2 * (self.X[:, j]).dot(self.Y - Y_pred)) / self.m # + self.l1_penalty) / self.m
+                dW[j] = (-2 * (self.X[:, j]).dot(self.Y - Y_pred)) / self.m
 
         db = -2 * np.sum(self.Y - Y_pred) / self.m
 
