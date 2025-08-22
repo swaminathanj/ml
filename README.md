@@ -38,14 +38,14 @@
 1. R^2, Adjusted R^2 (Videos: [Intuition behind R^2](https://www.youtube.com/watch?v=-7U10N8PvlQ), [Intuition behind Adjusted R^2](https://www.youtube.com/watch?v=IN6YkHtdgZI))
 2. MAE, MSE, RMSE
 3. Overfitting and Underfitting
-4. Bias-Variance Tradeoff
+4. Bias-Variance Tradeoff ([Intuition behind](https://www.youtube.com/watch?v=EuBBz3bI-aA))
 5. Multi-colinearity ([Reading from Geeks-for-geeks](https://www.geeksforgeeks.org/machine-learning/multicollinearity-in-regression-analysis/))
-6. Cross-validation (k-fold, leave-one-out)
+6. Cross-validation (k-fold, leave-one-out) ([Intuition](https://www.youtube.com/watch?v=fSytzGwwBVw))
 
 ### Regularization
-1. Ridge Regression (L2 regularization) ([Ridge](https://www.geeksforgeeks.org/machine-learning/implementation-of-ridge-regression-from-scratch-using-python/))
-2. Lasso Regression (L1 regularization) ([Lasso](https://www.geeksforgeeks.org/machine-learning/implementation-of-lasso-regression-from-scratch-using-python/))
-3. Elastic Net
+1. Ridge Regression (L2 regularization) ([Intuition](https://www.youtube.com/watch?v=Q81RR3yKn30), [Reading](https://www.geeksforgeeks.org/machine-learning/implementation-of-ridge-regression-from-scratch-using-python/))
+2. Lasso Regression (L1 regularization) ([Intuition][https://www.youtube.com/watch?v=NGf0voTMlcs], [Reading](https://www.geeksforgeeks.org/machine-learning/implementation-of-lasso-regression-from-scratch-using-python/))
+3. Elastic Net ([Intuition](https://www.youtube.com/watch?v=1dKRdX9bfIo&t=13s))
 
 ### Lab Activity
 1. Implementation ([Coding step-by-step](notes/Coding_Linear_Regression.md))
