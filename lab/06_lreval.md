@@ -11,6 +11,9 @@ This is a class based implementation of linear regression code which does exactl
 - First go through the code and understand it well
 - Execute and see how it works
 - Add the bias component for lasso regression while computing the gradient in *updae_weights* method. Check the parameter and evaluation values.
+  ```
+  dW[j] = (-2 * (self.X[:, j]).dot(self.Y - Y_pred) + l1_penalty * abs(W[j])) / self.m 
+  ```
 - Replace it with the bias component for ridge regression. Check the parameter and evaluation values.
 
 ```python
