@@ -37,7 +37,7 @@
 ### Model Evaluation for Regression
 1. R^2, Adjusted R^2 (Videos: [Intuition behind R^2](https://www.youtube.com/watch?v=-7U10N8PvlQ), [Intuition behind Adjusted R^2](https://www.youtube.com/watch?v=IN6YkHtdgZI))
 2. MAE, MSE, RMSE
-3. Overfitting and Underfitting
+3. Overfitting and Underfitting ([Intuition](https://www.youtube.com/watch?v=o3DztvnfAJg&t=133s))
 4. Bias-Variance Tradeoff ([Intuition behind](https://www.youtube.com/watch?v=EuBBz3bI-aA))
 5. Multi-colinearity ([Reading from Geeks-for-geeks](https://www.geeksforgeeks.org/machine-learning/multicollinearity-in-regression-analysis/))
 6. Cross-validation (k-fold, leave-one-out) ([Intuition](https://www.youtube.com/watch?v=fSytzGwwBVw))
