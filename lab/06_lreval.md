@@ -18,7 +18,7 @@ This is a class based implementation of linear regression code which does exactl
   dW[j] = (-2 * (self.X[:, j]).dot(self.Y - Y_pred) + l1_penalty * abs(W[j])) / self.m 
   ```
 6. Replace it with the bias component for ridge regression. Check the final parameters/weights, prediction output and evaluation values (R2 & Adjusted R2 scores) and make the observations.
-7. Implement [Linear Regression with K-Fold Cross Validation in Python: Predict the Health Insurance Cost](https://priscilla-vanny.medium.com/linear-regression-with-k-fold-cross-validation-in-python-predict-the-health-insurance-cost-7badf90fc1b8) and see how it works.
+7. Implement [Linear Regression with K-Fold Cross Validation in Python: Predict the Health Insurance Cost](https://priscilla-vanny.medium.com/linear-regression-with-k-fold-cross-validation-in-python-predict-the-health-insurance-cost-7badf90fc1b8) and Check the final parameters/weights, prediction output and evaluation values (R2 & Adjusted R2 scores) and make the observations for both Lasso and Ridge regression implementations.
 
 ```python
 import numpy as np
