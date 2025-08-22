@@ -10,7 +10,7 @@
 This is a class based implementation of linear regression code which does exactly the same thing as what you had implemented in previous lab.
 - First go through the code and understand it well
 - Execute and see how it works
-- Add the bias component for lasso regression while computing the gradient in *fit* method. Check the parameter and evaluation values.
+- Add the bias component for lasso regression while computing the gradient in *updae_weights* method. Check the parameter and evaluation values.
 - Replace it with the bias component for ridge regression. Check the parameter and evaluation values.
 
 ```python
