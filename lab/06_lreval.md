@@ -1,9 +1,9 @@
 # Linear Regression - Evaluation, Tuning, Regularization
 
 ## Datasets
-1. [](Experience-Salary.csv) (1 feature)
-2. student_dataset_1.csv (1 feature)
-3. student_dataset_2.csv (2 features)
+1. [Experience-Salary.csv](Experience-Salary.csv) (1 feature)
+2. [student_dataset_1.csv](student_dataset_1.csv) (1 feature)
+3. [student_dataset_2.csv](student_dataset_2.csv) (2 features)
 
 ## Plain linear regression code
 
