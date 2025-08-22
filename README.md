@@ -44,7 +44,7 @@
 
 ### Regularization
 1. Ridge Regression (L2 regularization) ([Intuition](https://www.youtube.com/watch?v=Q81RR3yKn30), [Reading](https://www.geeksforgeeks.org/machine-learning/implementation-of-ridge-regression-from-scratch-using-python/))
-2. Lasso Regression (L1 regularization) ([Intuition][https://www.youtube.com/watch?v=NGf0voTMlcs], [Reading](https://www.geeksforgeeks.org/machine-learning/implementation-of-lasso-regression-from-scratch-using-python/))
+2. Lasso Regression (L1 regularization) ([Intuition](https://www.youtube.com/watch?v=NGf0voTMlcs), [Reading](https://www.geeksforgeeks.org/machine-learning/implementation-of-lasso-regression-from-scratch-using-python/))
 3. Elastic Net ([Intuition](https://www.youtube.com/watch?v=1dKRdX9bfIo&t=13s))
 
 ### Lab Activity
