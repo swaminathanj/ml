@@ -6,6 +6,9 @@
 3. student_dataset_2.csv
 
 ## Plain linear regression code
+
+This is a class based implementation of linear regression code which does exactly the same thing as what you had implemented in previous lab.
+
 ```python
 import numpy as np
 import pandas as pd
