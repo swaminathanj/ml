@@ -50,6 +50,7 @@
 ### Lab Activity
 1. Implementation ([Coding step-by-step](notes/Coding_Linear_Regression.md))
 2. Lab Assignment - 1 ([Lab Activity](lab/05_lrimpl.md))
+3. Lab Assignment - 2 ([Lab Activity](lab/06_lreval.md))
 
 ## 3. Supervised Learning - Classification
 
