@@ -1,4 +1,19 @@
+# Logistic Regression from Scratch
 
+## Algorithm
+**Algorithm**: Logistic Regression
+1. Let X_values and y_values be the input-output pairs
+2. Plot the points
+3. Initialize parameters *weights* and *bias*
+4. Draw a sigmoid with initialized parameters and ( x, sigmoid(weights * x + bias) )
+5. Repeat for predecided number of times
+   a. Compute the *loss* with Binary Cross Entropy function
+   b. Determine the differential loss w.r.t. *weights* and *bias*
+   c. Update *weights* and *bias*
+   d. Draw a sigmoid with current *weights* and *bias*
+6. Draw a sigmoid with final weights and bias and ( x, sigmoid(weights * x + bias) )
+
+## Implementation
 
 ```python
 import numpy as np
