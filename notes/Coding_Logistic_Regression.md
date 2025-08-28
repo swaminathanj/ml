@@ -1,7 +1,8 @@
 # Logistic Regression from Scratch
 
-## Algorithm
-**Algorithm**: Logistic Regression
+## Algorithm: Logistic Regression
+
+```
 1. Let X_values and y_values be the input-output pairs
 2. Plot the points
 3. Initialize parameters *weights* and *bias*
@@ -13,6 +14,7 @@
    - Optional: Append the current *weights* and *bias* in *weights_history* and *bias_history*
    - Optional: Draw a sigmoid with current *weights* and *bias*
 6. Draw a sigmoid with final weights and bias and ( x, sigmoid(weights * x + bias) )
+```
 
 ## Implementation
 
