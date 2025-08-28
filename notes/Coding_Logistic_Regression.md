@@ -7,10 +7,11 @@
 3. Initialize parameters *weights* and *bias*
 4. Draw a sigmoid with initialized parameters and ( x, sigmoid(weights * x + bias) )
 5. Repeat for predecided number of times
-   a. Compute the *loss* with Binary Cross Entropy function
-   b. Determine the differential loss w.r.t. *weights* and *bias*
-   c. Update *weights* and *bias*
-   d. Draw a sigmoid with current *weights* and *bias*
+   - Compute the *loss* with Binary Cross Entropy function
+   - Determine the differential loss w.r.t. *weights* and *bias*
+   - Update *weights* and *bias*
+   - Optional: Append the current *weights* and *bias* in *weights_history* and *bias_history*
+   - Optional: Draw a sigmoid with current *weights* and *bias*
 6. Draw a sigmoid with final weights and bias and ( x, sigmoid(weights * x + bias) )
 
 ## Implementation
