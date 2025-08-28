@@ -1,4 +1,4 @@
-# Logistic Regression from Scratch
+# Logistic Regression implementation
 
 ## Algorithm: Logistic Regression
 
@@ -16,7 +16,7 @@
 6. Draw a sigmoid with final weights and bias and ( x, sigmoid(weights * x + bias) )
 ```
 
-## Implementation
+## Implementation from scratch
 
 ```python
 import numpy as np
