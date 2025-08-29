@@ -64,6 +64,7 @@
 2. Cost function (Cross-Entropy)
 3. Decision boundary
 4. Implementation ([Coding Logistic Regression](notes/Coding_Logistic_Regression))
+5. Lab Assignment - 3 ([Lab Activity](lab/07_logregimpl.md))
 
 ### K-Nearest Neighbors (KNN)
 1. Distance metrics
