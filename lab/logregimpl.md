@@ -1,7 +1,7 @@
 # Logistic Regression - Lab activity
 
 ## Understand the code
-1. Check out the code in (../notes/Coding_Logistic_Regression.md) and understand the its connection with the math behind.
+1. Check out the code in ([Logistic Regression Implmentation](../notes/Coding_Logistic_Regression.md)) and understand the its connection with the math behind.
 2. Run the code in Google Colab and understand its working.
 
 ## Play around with data (keep x single dimensional)
