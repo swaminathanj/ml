@@ -88,4 +88,4 @@ plt.legend()
 plt.grid(True)
 plt.show()
 ```
-![](logreg01.png)
+![](logreg_01.png)
