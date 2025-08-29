@@ -88,3 +88,4 @@ plt.legend()
 plt.grid(True)
 plt.show()
 ```
+![Logistic Regression training](logreg01.png)
