@@ -12,8 +12,8 @@
 
 ## Playing around with m and c
 7. Does starting with a different inital values for m and c matter? Check if you are able to get the same (very close to) final m and c. Prove by experiment.
-8. Suppose you updated only m (but not c), how would the gradient descent work. What is final value of c? How does it compare with original experiment?
-9. Suppose you updated only c (but not n), how would the gradient descent work. What is final value of m? How does it compare with original experiment?
+8. Suppose you updated only m (but not c), how would the gradient descent work. What is final value of m? How does it compare with original experiment?
+9. Suppose you updated only c (but not m), how would the gradient descent work. What is final value of c? How does it compare with original experiment?
 
 ## Playing around with the running rate
 10. Observe the behavior of the program for different values of running_rate?
