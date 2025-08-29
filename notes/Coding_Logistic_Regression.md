@@ -88,4 +88,4 @@ plt.legend()
 plt.grid(True)
 plt.show()
 ```
-![](logreg_01.png)
+![LogisticRegression](logreg_01.png)
