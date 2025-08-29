@@ -63,7 +63,7 @@
 1. Sigmoid function
 2. Cost function (Cross-Entropy)
 3. Decision boundary
-4. Implementation ([Coding Logistic Regression](notes/Coding_Logistic_Regression)
+4. Implementation ([Coding Logistic Regression](notes/Coding_Logistic_Regression))
 
 ### K-Nearest Neighbors (KNN)
 1. Distance metrics
