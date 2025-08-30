@@ -62,7 +62,7 @@
 5. Binary vs. Multi-class classification
 
 ### Logistic Regression
-1. Problem of using linear regression for classification ([Reading](https://www.mltut.com/why-linear-regression-cannot-be-used-for-classification/))
+1. Why not linear regression for classification? ([Reading](https://www.mltut.com/why-linear-regression-cannot-be-used-for-classification/))
 2. Sigmoid function
 3. Cost function (Binary Cross-Entropy)
 4. [Class notes](notes/LogisticRegressionNotes.pdf)
