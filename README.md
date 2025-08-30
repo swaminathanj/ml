@@ -55,10 +55,11 @@
 ## 3. Supervised Learning - Classification
 
 ### Introduction to Classification
-1. Binary vs. Multi-class classification
-2. [False Positives (Type I error) vs. False Negatives (Type II error)](https://www.geeksforgeeks.org/machine-learning/false-positives-and-false-negatives/)
-3. Classification metrics ([Accuracy, Precision, Recall, F1-score, Confusion Matrix](https://www.geeksforgeeks.org/machine-learning/confusion-matrix-machine-learning/))
+1. Regression vs. Classification ([Reading](https://www.udacity.com/blog/2025/02/regression-vs-classification-key-differences-and-when-to-use-each.html))
+2. False Positives (Type I error) vs. False Negatives (Type II error) ([Reading](https://www.geeksforgeeks.org/machine-learning/false-positives-and-false-negatives/))
+3. Classification metrics (Accuracy, Precision, Recall, F1-score, Confusion Matrix) ([Reading](https://www.geeksforgeeks.org/machine-learning/confusion-matrix-machine-learning/))
 4. ROC Curve and AUC
+5. Binary vs. Multi-class classification
 
 ### Logistic Regression
 1. Using linear regression for classification
