@@ -56,15 +56,18 @@
 
 ### Introduction to Classification
 1. Binary vs. Multi-class classification
-2. Classification metrics (Accuracy, Precision, Recall, F1-score, Confusion Matrix)
-3. ROC Curve and AUC
+2. [False Positives (Type I error) vs. False Negatives (Type II error)](https://www.geeksforgeeks.org/machine-learning/false-positives-and-false-negatives/)
+3. Classification metrics ([Accuracy, Precision, Recall, F1-score, Confusion Matrix](https://www.geeksforgeeks.org/machine-learning/confusion-matrix-machine-learning/))
+4. ROC Curve and AUC
 
 ### Logistic Regression
-1. Sigmoid function
-2. Cost function (Cross-Entropy)
-3. Decision boundary
-4. Implementation ([Coding Logistic Regression](notes/Coding_Logistic_Regression))
-5. Lab Assignment - 3 ([Lab Activity](lab/07_logregimpl.md))
+1. Using linear regression for classification
+2. Sigmoid function
+3. Cost function (Binary Cross-Entropy)
+4. [Class notes](notes/LogisticRegressionNotes.pdf)
+5. Decision boundary
+6. Implementation ([Coding Logistic Regression](notes/Coding_Logistic_Regression))
+7. Lab Assignment - 3 ([Lab Activity](lab/07_logregimpl.md))
 
 ### K-Nearest Neighbors (KNN)
 1. Distance metrics
