@@ -29,14 +29,12 @@
 16. **Note**: Visualization with matplotlib will not work for multi-dimensional data. You have to remove/comment out those statements and print only the parameters, cost, etc.
 17. Ensure you divide the data sets into training and testing. Compute and print the different classification metrics for each of the 3 data sets.
 
-## Try computing different classification metrics
-18. Accuracy with 3 different thresholds (0.5, 0.25, 0.75). Record your observations.
-19. Precision with 3 different thresholds (0.5, 0.25, 0.75). Record your observations.
-20. Recall with 3 different thresholds (0.5, 0.25, 0.75). Record your observations.
-21. F1 score with 3 different thresholds (0.5, 0.25, 0.75). Record your observations.
-22. Confusion matrix with 3 different thresholds (0.5, 0.25, 0.75). Record your observations.
-23. ROC curve and AUC  with 3 different thresholds (0.5, 0.25, 0.75). Record your observations.
+## Compute performance with different classification metrics
+18. Accuracy with 3 different thresholds (0.5, 0.25, 0.75). Record your observations for the 3 datasets.
+19. Precision with 3 different thresholds (0.5, 0.25, 0.75). Record your observations for the 3 datasets.
+20. Recall with 3 different thresholds (0.5, 0.25, 0.75). Record your observations for the 3 datasets.
+21. F1 score with 3 different thresholds (0.5, 0.25, 0.75). Record your observations for the 3 datasets.
+22. Confusion matrix with 3 different thresholds (0.5, 0.25, 0.75). Record your observations for the 3 datasets.
+23. AUC ROC curve with 3 different thresholds (0.5, 0.25, 0.75). Record your observations for the 3 datasets.
 
-## Play around with linear regression formula
-24. Run the linear regression implementation with same data. What line you get?
-25. What is the accuracy you get? with linear regression implementation? 
+
