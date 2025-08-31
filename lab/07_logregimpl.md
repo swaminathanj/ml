@@ -37,4 +37,8 @@
 22. Confusion matrix with 3 different thresholds (0.5, 0.25, 0.75). Record your observations for the 3 datasets.
 23. AUC ROC curve with 3 different thresholds (0.5, 0.25, 0.75). Record your observations for the 3 datasets.
 
+## Use ML libraries
+24. Determine the final parameters and error for a single data set by using Scikit-learn and compare against your implementation.
+25. Determine the final parameters and error for a single data set by using Tensor Flow and compare against your implementation.
+    (Note: You can tabulate them) - weights, bias, error as rows and the your implementation, Scikit-lear and Tensor Flow as columns.
 
