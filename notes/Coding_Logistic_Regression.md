@@ -63,7 +63,7 @@ def train_logistic_regression(X, y, learning_rate, num_iterations):
 X_values = np.array([ [20], [25], [30], [35], [40], [45], [50], [55], [60], [65], [70], [75], [80], [85] ])
 y_values = np.array([ 0,  0,  0,  0,  0,  1,  1,  1,  1,  1, 1, 1, 1, 1 ])
 
-weights_hist, bias_hist = train_logistic_regression(X_values, y_values, learning_rate=0.1, num_iterations=100000)
+weights_hist, bias_hist = train_logistic_regression(X_values, y_values, learning_rate=0.1, num_iterations=1000)
 
 plt.figure(figsize=(10, 6))
 x_plot = np.linspace(X_values.min() - 1, X_values.max() + 1, 100) # Range for plotting sigmoid
@@ -73,7 +73,7 @@ initial_linear_model = np.dot(x_plot.reshape(-1, 1), weights_hist[0]) + bias_his
 plt.plot(x_plot, sigmoid(initial_linear_model), label=f'Iteration 0', linestyle='--')
 
 # Plot sigmoid curves at chosen intervals
-plot_iterations = [10000, 50000, 99999] # Example: plot at specific iterations
+plot_iterations = [100, 500, 999] # Example: plot at specific iterations
 for i in plot_iterations:
     current_weights = weights_hist[i]
     current_bias = bias_hist[i]
