@@ -74,6 +74,12 @@
 1. Distance metrics
 2. Choosing 'k'
 
+### Naive Bayes
+1. Bayes' Theorem
+2. Naive Bayes classifier ([Reading](https://www.geeksforgeeks.org/machine-learning/naive-bayes-classifiers/))
+3. Feature independence
+4. Discrete vs. continuous features 
+
 ### Support Vector Machines (SVM)
 1. Linear SVM (maximal margin hyperplane)
 2. Kernels (polynomial, RBF) for non-linear separation
