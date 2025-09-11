@@ -33,6 +33,8 @@
 3. Gradient Descent algorithm ([Video: Mathematical intuition](https://youtu.be/9H-s5cQ1iBk?si=um9J605sChHFYH6b))
 4. Multiple Linear Regression ([Reading from Geeks-for-geeks](https://www.geeksforgeeks.org/machine-learning/ml-linear-regression/))
 5. Assumptions of Linear Regression ([Reading from Geeks-for-geeks](https://www.geeksforgeeks.org/machine-learning/assumptions-of-linear-regression/))
+6. Implementation ([Coding step-by-step](notes/Coding_Linear_Regression.md))
+7. **Lab Assignment - 1** ([Lab Activity](lab/05_lrimpl.md))
 
 ### Model Evaluation for Regression
 1. R^2, Adjusted R^2 (Videos: [Intuition behind R^2](https://www.youtube.com/watch?v=-7U10N8PvlQ), [Intuition behind Adjusted R^2](https://www.youtube.com/watch?v=IN6YkHtdgZI))
@@ -46,11 +48,7 @@
 1. Ridge Regression (L2 regularization) ([Intuition](https://www.youtube.com/watch?v=Q81RR3yKn30), [Reading](https://www.geeksforgeeks.org/machine-learning/implementation-of-ridge-regression-from-scratch-using-python/))
 2. Lasso Regression (L1 regularization) ([Intuition](https://www.youtube.com/watch?v=NGf0voTMlcs), [Reading](https://www.geeksforgeeks.org/machine-learning/implementation-of-lasso-regression-from-scratch-using-python/))
 3. Elastic Net ([Intuition](https://www.youtube.com/watch?v=1dKRdX9bfIo&t=13s))
-
-### Lab Activity
-1. Implementation ([Coding step-by-step](notes/Coding_Linear_Regression.md))
-2. Lab Assignment - 1 ([Lab Activity](lab/05_lrimpl.md))
-3. Lab Assignment - 2 ([Lab Activity](lab/06_lreval.md))
+4. **Lab Assignment - 2** ([Lab Activity](lab/06_lreval.md))
 
 ## 3. Supervised Learning - Classification
 
@@ -68,7 +66,7 @@
 4. [Class notes](notes/LogisticRegressionNotes.pdf)
 5. Decision boundary
 6. Implementation ([Coding Logistic Regression](notes/Coding_Logistic_Regression.md))
-7. Lab Assignment - 3 ([Lab Activity](lab/07_logregimpl.md))
+7. **Lab Assignment - 3** ([Lab Activity](lab/07_logregimpl.md))
 
 ### K-Nearest Neighbors (KNN)
 1. Distance metrics
@@ -78,7 +76,8 @@
 1. Bayes' Theorem
 2. Naive Bayes classifier ([Reading](https://www.geeksforgeeks.org/machine-learning/naive-bayes-classifiers/))
 3. Feature independence
-4. Discrete vs. continuous features 
+4. Discrete vs. continuous features
+5. **Lab Assignment - 4** ([Lab Activity](lab/08_knn_nb_impl.md))
 
 ### Support Vector Machines (SVM)
 1. Linear SVM (maximal margin hyperplane)
