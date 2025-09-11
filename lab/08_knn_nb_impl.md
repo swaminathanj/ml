@@ -6,17 +6,27 @@
    a. x = 10 <br>
    b. x = 13 <br>
    c. x = 15
-4. Determine the class for the above 3 test data points for K = 5.
-5. Write down your observations from the above experiments.
+3. Determine the class for the above 3 test data points for K = 5.
+4. Write down your observations from the above experiments.
 
 ## KNN implementation for 2 features
-1. Extend the above implementation to accommodate 2 features. 
-2. Each data point includes (x1, x2, y)
-3. Generate 100 values randomly for x1 between the range 1 to 99.
-4. Generate 100 values randomly for x2 between the range 1000 to 9999.
-5. Generate 100 values randomly for y with either 0 or 1 (2 class).
-6. Using matplotlib, plot the points (x1, x2) for all points that has y = 0 in blue color.
-7. Similarly, plost the points (x1, x2) for all points that has y = 1 in red color.
-8. For a test data point (x1 = 25, x2 = 7835), use the implementation to determine the class.
+5. Extend the above implementation to accommodate 2 features. Each data point includes (x1, x2, y)
+6. Generate synthetic dataset for x1, x2 and y of size 100 values randomly as follows:
+   a. x1 between the range 1 and 99.
+   b. x2 between the range 1000 and 9999.
+   c. y between the range 0 and 1 (2 class).
+7. Using matplotlib, plot (x1, x2) for all points that has y = 0 in blue color. Similarly, plot (x1, x2) for all points that has y = 1 in red color.
+8. For the following test data points, use your implementation to determine the class (k = 3) (br>
+   a. (x1 = 25, x2 = 7835)<br>
+   b. (x1 = 99, x2 = 1001)<br>
+   c. (x1 = 50, x2 = 5000)<br>
+9. Write down your observations based on the above experiments.
+10. Standardize both x1 and x2 values between [0-1] range and repeat the predictions. Did you observe any changes to the classification? Write down your observations.
+
+## KNN implementation of multiple features
+11. Extend your implementation to deal with 'n' features and try predicting the class with synthetically generated dataset (apply standardization).
+12. Use Scikit-learn and TensorFlow to predict the class and compare the preditions against your predictions. Tabulate them.
+13. Take a real-world dataset and make predictions using Scikit-learn.
+14. KNN is supposed to be computationally intensive for large datasets. Did  you observe this?
 
 # Part 2: Naive Bayes implementation
