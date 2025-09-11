@@ -67,7 +67,7 @@
 3. Cost function (Binary Cross-Entropy)
 4. [Class notes](notes/LogisticRegressionNotes.pdf)
 5. Decision boundary
-6. Implementation ([Coding Logistic Regression](notes/Coding_Logistic_Regression))
+6. Implementation ([Coding Logistic Regression](notes/Coding_Logistic_Regression.md))
 7. Lab Assignment - 3 ([Lab Activity](lab/07_logregimpl.md))
 
 ### K-Nearest Neighbors (KNN)
