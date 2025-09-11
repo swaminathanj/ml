@@ -32,5 +32,5 @@
 # Part 2: Naive Bayes implementation
 15. Implement Naive Bayes algorithm (multinomial) or download existing implementation and make sure you understand it.
 16. Train your algorithm for the example given in [Geeks-for-geeks](https://www.geeksforgeeks.org/machine-learning/naive-bayes-classifiers/) and check its predictions.
-17. Repeat the predictions with Scikit-learn and TensorFlow NB classifiers and tabulate the predictions against your implementation.
+17. Repeat the predictions with Scikit-learn and TensorFlow NB classifiers and tabulate them against your implementation.
 18. Write down your observations based on the above experiments.
