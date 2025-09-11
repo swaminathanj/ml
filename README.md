@@ -71,6 +71,7 @@
 ### K-Nearest Neighbors (KNN)
 1. Distance metrics
 2. Choosing 'k'
+3. Reference ([Reading](https://www.tutorialspoint.com/machine_learning/machine_learning_knn_nearest_neighbors.htm))
 
 ### Naive Bayes
 1. Bayes' Theorem
