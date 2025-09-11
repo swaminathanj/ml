@@ -30,7 +30,9 @@
 14. KNN is supposed to be computationally intensive for large datasets. Did  you observe this?
 
 # Part 2: Naive Bayes implementation
-15. Implement Naive Bayes algorithm (multinomial) or download existing implementation and make sure you understand it.
+15. Implement Naive Bayes algorithm (all features are discrete) or download existing implementation and make sure you understand it.
 16. Train your algorithm for the example given in [Geeks-for-geeks](https://www.geeksforgeeks.org/machine-learning/naive-bayes-classifiers/) and check its predictions.
 17. Repeat the predictions with Scikit-learn and TensorFlow NB classifiers and tabulate them against your implementation.
 18. Write down your observations based on the above experiments.
+19. (Optional) Modify your implementation to compute likelihood for continuous data (Guassian distribution given mu and sigma). Python libraries can do this. You have to do some prompting and tinkering to get this.
+20. (Optional) If features are not independent, Naive Bayes algorithn cannot predict that well. Can you prove this with an appropriate dataset?
