@@ -82,8 +82,9 @@
 
 ### Support Vector Machines (SVM)
 1. Linear SVM (maximal margin hyperplane)
-2. Kernels (polynomial, RBF) for non-linear separation
-3. **Lab Assignment - 5** ([Lab Activity](lab/09_svm_impl.md))
+2. Mathematical Derivation (Readings: [Part 1](https://ankitnitjsr13.medium.com/math-behind-support-vector-machine-svm-5e7376d0ee4d), [Part 2](https://ankitnitjsr13.medium.com/math-behind-svm-support-vector-machine-864e58977fdb), [Part 3](https://ankitnitjsr13.medium.com/math-behind-svm-kernel-trick-5a82aa04ab04))
+3. Kernels (polynomial, RBF) for non-linear separation
+4. **Lab Assignment - 5** ([Lab Activity](lab/09_svm_impl.md))
 
 ### Decision Trees
 1. Entropy, Gini impurity
