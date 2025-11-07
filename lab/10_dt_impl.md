@@ -13,8 +13,9 @@
    </table>
    
 2. Generate from the scratch implementation of decision tree (based on Gini impurity) and understand the code.
-3. Generate an implementation that uses Entropy as opposed to Gini impurity.
-4. Check if the classification for a test data is same for both.
-5. For a downloaded data set, try the decision tree program and see it working.
-6. Use Scikit-learn's Decision Tree implementation on the above downloaded data set.
-7. Use Tensor Flow's Decision Tree implementation on the above downloaded data set.
+3. Generate an implementation that uses Entropy as opposed to Gini impurity and understand the code.
+4. Compare both the implementations in terms of structure and logic.
+5. Do you think for a given test data, both implementations would do the same classification? Justify.
+6. For any downloaded data set (from pandas or scikit-learn), try the decision tree implemenation and see it working. You may have to make changes to the code to process the input.
+7. Use Scikit-learn's Decision Tree implementation on the above downloaded data set.
+8. Use Tensor Flow's Decision Tree implementation on the above downloaded data set.
