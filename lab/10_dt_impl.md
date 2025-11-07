@@ -1,4 +1,4 @@
-# Decision Tree Implementation (Lab Activity)
+# Decision Tree Implementation - Lab Activity
 
 1. Implement a program in python that computes the Gini impurity of each feature for a given dataset with 3 features.  Use the example dataset discussed in the class.
    <table>
