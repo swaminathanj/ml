@@ -91,6 +91,7 @@
 1. Entropy, Gini impurity
 2. Information Gain
 3. Pruning
+4. **Lab Assignment - 6** ([Lab Activity](lab/10_dt_impl.md))
 
 ### Ensemble Methods
 1. Bagging: Random Forest
