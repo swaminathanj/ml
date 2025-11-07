@@ -1,7 +1,7 @@
 # Decision Trees
 
 1. Implement a program in python that computes the Gini impurity of each feature for a given dataset with 3 features.  Use the example dataset discussed in the class.
-   <table>
+   <table center="1">
      <tr>       <th>Loves Popcorn</th>       <th>Loves Soda</th>       <th>Age</td>       <th>Loves icecream</th>     </tr>
      <tr>       <td>x[1]</td>       <td>x[2]</td>       <td>x[3]</td>       <td>y</td>     </tr>
      <tr>       <td>Yes</td>       <td>Yes</td>       <td>7</td>       <td>No</td>     </tr>
