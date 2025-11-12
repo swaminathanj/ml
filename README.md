@@ -95,7 +95,7 @@
 
 ### Ensemble Methods
 1. Bagging: Random Forest
-2. Boosting: AdaBoost, Gradient Boosting Machines (GBM), XGBoost, LightGBM, CatBoost
+2. Boosting: AdaBoost ([Video](https://www.youtube.com/watch?v=LsK-xG1cLYA&t=873s))
 
 ## 4. Unsupervised Learning
 
