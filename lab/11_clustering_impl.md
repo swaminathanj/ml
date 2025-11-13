@@ -1,5 +1,7 @@
 # Clustering - Lab Activity
 
+## Part 1: Hierarchical Clustering
+
 Inspect the following implementation of **Hierarchical clustering** and answer the questions that follow:
 ```python
 import numpy as np
