@@ -78,7 +78,7 @@ print(f"Cluster labels: {clusters}")
 ```
 
 1. Understand the code in relation to hierarchical clustering algorithm. 
-2. Add code to print the dataset (after the points are created).
+2. Add code to print the dataset (after the points are created). Is the dataset different for each run or same?
 3. Cut the dendrogram at different heights and see how it affects the number of clusters and cluster assignments to the data points.
 4. Tweak the code to generate datasets of different sizes (say 10, 15, 25, 30) and examine the dendrograms.
 5. Tabulate what would be the cut off height for each cases.
@@ -184,4 +184,10 @@ plt.legend()
 plt.grid(True, linestyle=':', alpha=0.5)
 plt.show()
 ```
-7. 
+7. Understand the code in relation to k-means clustering algorithm.
+8. Add code to print the number of iterations the algorithm took to converge.
+9. Mark the initial centroids in the plot using blue cross.
+10. Do the initial centroids change each time you run?
+11. Increase K by 1 (i.e. k = 5) and see its effect on the clusters. Note down your observations.
+12. Decrease K by 1 (i.e. k = 3) and see its effect on the clusters. Note down your observations.
+13. How do th
