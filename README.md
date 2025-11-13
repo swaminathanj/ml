@@ -103,6 +103,7 @@
 1. K-Means Clustering: Elbow method, silhouette score
 2. Hierarchical Clustering: Dendrograms
 3. DBSCAN (briefly).
+4. **Lab Assignment -7** ([Lab Activity](lab/11_clustering_impl.md))
 
 ### Dimensionality Reduction
 1. Principal Component Analysis (PCA): Intuition, eigen decomposition (briefly), applications
