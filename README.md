@@ -107,5 +107,5 @@
 
 ### Dimensionality Reduction
 1. Principal Component Analysis (PCA): Intuition, eigen decomposition (briefly), applications
-2. PCA computation ([Class Notes](notes/PCA_Computation_Demo.pdf)
+2. PCA computation ([Class Notes](notes/PCA_Computation_Demo.pdf))
 
